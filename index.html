@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculate! Me</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <h1>BMI Calculate! Me</h1>
+    <form id="forma-control">
+      <h2>Introduce your height</h2>
+      <label for="height">
+        <input type="number" required id="height" placeholder="meters">
+      </label>
+      <h2>Introduce your weight</h2>
+      <label for="weight">
+        <input type="number" required id="weight" placeholder="kilograms">
+      </label>
+    </form>
+    <button onclick="calculateBMI()" id="cta">Check</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
