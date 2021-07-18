@@ -4,4 +4,7 @@ function calculateBMI(){
 
   let resultBMI = (kg / (cm * cm)).toFixed(2);
   document.getElementById("result").innerHTML = resultBMI;
+  if(resultBMI > 26.0){
+    alert("Please take action and get better your feeding style & do exercise!");
+  }
 } 
